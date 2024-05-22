@@ -20,11 +20,11 @@ public class InstantCreditCheck {
         // Local variables
        double salary = getSalary();
        int creditScore =  getCreditScore();
-        sc.close();
+       sc.close();
 
-        boolean qualified = isUserQualified(salary, creditScore);
+       boolean qualified = isUserQualified(salary, creditScore);
 
-        notifyUser(qualified);
+       notifyUser(qualified);
     }
 
 
